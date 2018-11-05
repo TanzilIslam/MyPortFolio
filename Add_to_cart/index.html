@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Simple Cart function</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+</head>
+  <body>
+
+    <div class="main-container">
+      <div class="container">
+        <p class="item">Soccer Ball</p>
+        <p class="price">30</p>
+        Quantity <input type="number" class="qty" value="1" min="1">
+        <button class="add">Add to Cart</button>
+      </div>
+
+      <div class="container">
+        <p class="item">Soccer Shoes</p>
+        <p class="price">500</p>
+        Quantity <input type="number" class="qty" value="1" min="1">
+        <button class="add">Add to Cart</button>
+      </div>
+
+      <div class="container">
+        <p class="item">Soccer Jersy</p>
+        <p class="price">800</p>
+        Quantity <input type="number" class="qty" value="1" min="1">
+        <button class="add">Add to Cart</button>
+        </div>
+    </div>
+
+<div id="cart-container">
+  <h1>My Cart</h1>
+  <table id="myCart" border="1">
+    <tr>
+      <th>Item Name</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+    <tr style="display:none ; border-top : 2px solid black">
+      <td colspan="3">SubTotal</td>
+      <td  class="right subtotal"></td>
+    </tr>
+</table>
+</div>
+<script src="Jquery.js"></script>
+</body>
+</html>

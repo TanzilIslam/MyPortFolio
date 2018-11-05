@@ -1,0 +1,66 @@
+.main-container{
+  text-align: center;
+  margin-top: 20px;
+}
+h1{
+  margin-left: 50%;
+}
+.container{
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid black;
+  width : 200px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+
+}
+.qty{
+  width: 50px;
+}
+#cart-container{
+  margin-top: 50px;
+  margin-left: 10px;
+
+}
+#myCart{
+  border-collapse: collapse;
+  margin-left: 20%;
+
+}
+#myCart tr td,th{
+  padding: 10px;
+  width: 200px;
+  position: relative;
+
+}
+#myCart tr th {
+  background-color: black;
+  color: white;
+
+}
+#myCart tr td{
+  text-align: left;
+
+}
+
+#myCart tr td.qty2 {
+  text-align: center;
+  width: 50px;
+
+}
+#myCart tr td.right{
+  text-align: right;
+}
+.currency{
+  position: absolute;
+  left: 20px;
+}
+.add{
+  margin-top: 20px;
+}
+.subtotal{
+  font-weight: bold;
+}
